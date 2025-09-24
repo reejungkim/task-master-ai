@@ -32,4 +32,12 @@ task-master generate
 
 # Add rules after initialization
 task-master rules add windsurf,roo,vscode
+
+# Analyze Complexity
+tm analyze-complexity
+tm list
+
+tm expand --all
+tm list --with-subtasks 
+
 ```

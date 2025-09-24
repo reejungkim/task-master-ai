@@ -1,0 +1,93 @@
+{
+	"meta": {
+		"generatedAt": "2025-09-24T14:33:29.864Z",
+		"tasksAnalyzed": 10,
+		"totalTasks": 10,
+		"analysisCount": 10,
+		"thresholdScore": 5,
+		"projectName": "Taskmaster",
+		"usedResearch": false
+	},
+	"complexityAnalysis": [
+		{
+			"taskId": 1,
+			"taskTitle": "Setup React Project Foundation",
+			"complexityScore": 6,
+			"recommendedSubtasks": 5,
+			"expansionPrompt": "Break down the React project setup into specific implementation steps including: 1) Project initialization with build tools, 2) Folder structure and organization setup, 3) UI library and dependency installation, 4) Code quality tools configuration, and 5) Firebase authentication setup.",
+			"reasoning": "This task involves multiple technical decisions and configurations including project initialization, dependency management, and Firebase setup. While familiar to experienced React developers, it requires careful planning to ensure a solid foundation for the entire application."
+		},
+		{
+			"taskId": 2,
+			"taskTitle": "Implement User Authentication UI",
+			"complexityScore": 7,
+			"recommendedSubtasks": 6,
+			"expansionPrompt": "Divide the authentication implementation into: 1) Login form UI and validation, 2) Registration form UI and validation, 3) Firebase email/password authentication integration, 4) Google authentication integration, 5) Protected routes implementation, and 6) User profile data storage.",
+			"reasoning": "Authentication involves both UI development and integration with Firebase services. It requires handling various states (loading, error, success), implementing secure practices, and creating a smooth user experience across multiple authentication flows."
+		},
+		{
+			"taskId": 3,
+			"taskTitle": "Create Onboarding Flow and Dashboard",
+			"complexityScore": 8,
+			"recommendedSubtasks": 7,
+			"expansionPrompt": "Break down the onboarding and dashboard implementation into: 1) Welcome screen design, 2) Multi-step questionnaire UI, 3) User preference storage system, 4) Dashboard layout and navigation, 5) Content recommendation algorithm, 6) Check-in interfaces, and 7) Dashboard widget components.",
+			"reasoning": "This task combines complex UI flows with state management and personalization logic. The multi-step questionnaire, personalized content recommendations, and various dashboard components make this a substantial development effort requiring careful planning and implementation."
+		},
+		{
+			"taskId": 4,
+			"taskTitle": "Implement Mock AI Counseling Interface",
+			"complexityScore": 9,
+			"recommendedSubtasks": 8,
+			"expansionPrompt": "Divide the counseling interface implementation into: 1) Chat UI design, 2) Conversation tree data structure, 3) Keyword matching algorithm, 4) Context management system, 5) Chat interaction animations, 6) Session history storage, 7) Conversation starter system, and 8) Emergency support integration.",
+			"reasoning": "This task involves complex algorithmic work (keyword matching, conversation trees) combined with sophisticated UI interactions. Creating a natural-feeling conversation flow with appropriate responses requires careful planning of both data structures and user experience elements."
+		},
+		{
+			"taskId": 5,
+			"taskTitle": "Develop Meditation Library and Player",
+			"complexityScore": 7,
+			"recommendedSubtasks": 6,
+			"expansionPrompt": "Break down the meditation library implementation into: 1) Library interface and categorization, 2) Audio content integration, 3) Custom audio player controls, 4) Session progress tracking system, 5) Favorites and playlist functionality, and 6) Background playback implementation.",
+			"reasoning": "This task combines media handling with UI development and state persistence. The audio playback functionality, progress tracking, and playlist features require careful implementation to ensure a smooth user experience across different devices and usage patterns."
+		},
+		{
+			"taskId": 6,
+			"taskTitle": "Implement Mood Tracking and Visualization",
+			"complexityScore": 8,
+			"recommendedSubtasks": 7,
+			"expansionPrompt": "Divide the mood tracking system into: 1) Daily mood logging interface, 2) LocalStorage data schema design, 3) Chart visualization implementation, 4) Time-based view filters, 5) Pattern correlation analysis, 6) Reminder system, and 7) Data export functionality.",
+			"reasoning": "This task combines data collection, storage, analysis, and visualization. The correlation analysis and insights generation require algorithmic thinking, while the charting components need careful implementation to be responsive and informative across different devices."
+		},
+		{
+			"taskId": 7,
+			"taskTitle": "Create Community Mockup Interface",
+			"complexityScore": 7,
+			"recommendedSubtasks": 6,
+			"expansionPrompt": "Break down the community interface implementation into: 1) Forum layout and category structure, 2) Sample content creation, 3) User profile page implementation, 4) Group chat interface mockups, 5) Support circle creation flow, and 6) Search and filter functionality.",
+			"reasoning": "While this task involves creating mockups rather than fully functional features, it still requires designing complex social interactions and interfaces. The various community components (forums, profiles, chats) need to work together coherently while maintaining responsive design."
+		},
+		{
+			"taskId": 8,
+			"taskTitle": "Implement Crisis Support Flow",
+			"complexityScore": 9,
+			"recommendedSubtasks": 7,
+			"expansionPrompt": "Divide the crisis support implementation into: 1) Crisis detection system, 2) Escalation screen design, 3) Emergency contact interface, 4) Safety planning tool, 5) Guided breathing exercise, 6) Crisis resources directory, and 7) Offline accessibility implementation.",
+			"reasoning": "This task has high complexity due to its critical nature and the need for careful design of detection algorithms and support resources. The crisis detection system must be reliable, and all components need to work flawlessly even in offline scenarios, adding technical challenges."
+		},
+		{
+			"taskId": 9,
+			"taskTitle": "Implement Analytics and Feedback Collection",
+			"complexityScore": 6,
+			"recommendedSubtasks": 5,
+			"expansionPrompt": "Break down the analytics implementation into: 1) Google Analytics integration, 2) Hotjar setup and configuration, 3) Feedback form creation, 4) Custom event tracking implementation, and 5) Analytics dashboard development.",
+			"reasoning": "This task involves integrating third-party services and creating custom tracking mechanisms. While the individual integrations are straightforward, ensuring comprehensive coverage of user actions and creating meaningful visualizations of the collected data adds complexity."
+		},
+		{
+			"taskId": 10,
+			"taskTitle": "Deploy and Configure Production Environment",
+			"complexityScore": 7,
+			"recommendedSubtasks": 6,
+			"expansionPrompt": "Divide the deployment process into: 1) Hosting platform setup, 2) Continuous deployment configuration, 3) Domain and SSL setup, 4) Environment variable management, 5) Performance optimization, and 6) Offline functionality implementation.",
+			"reasoning": "Deployment involves multiple technical configurations across different services. Setting up continuous deployment, managing environment variables securely, and implementing offline functionality with service workers all require careful planning and testing to ensure a reliable production environment."
+		}
+	]
+}
