@@ -38,6 +38,8 @@ tm analyze-complexity
 tm list
 
 tm expand --all
-tm list --with-subtasks 
+tm expand --id=<id>
+tm analyze-complexity --research
 
+tm list --with-subtasks 
 ```
