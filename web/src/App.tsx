@@ -1,7 +1,10 @@
 import { useState } from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Home from './pages/Home'
+import About from './pages/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +20,10 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <nav style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+      </nav>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -25,6 +32,10 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
